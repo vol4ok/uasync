@@ -161,13 +161,7 @@
 
     return _;
   };
-
-  if (exports !== undefined) {
-    console.log("load as CommonJS");
-    module.exports = uasync;
-  } else {
-    console.log("load as browser");
-    uasync(_);
-  }
+  
+  typeof exports !== 'undefined' ? module.exports = uasync : uasync(_);
 
 })();
