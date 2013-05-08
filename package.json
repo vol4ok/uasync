@@ -22,9 +22,7 @@
   "author": "Andrew Volkov <hello@vol4ok.net>",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "dependencies": {
-    "lodash": "~1.2.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "lodash": "~1.2.1",
     "underscore": "~1.4.4"
