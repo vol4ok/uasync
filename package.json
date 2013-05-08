@@ -1,0 +1,32 @@
+{
+  "name": "uasync",
+  "version": "0.1.0",
+  "description": "micro async library for lodash or underscore",
+  "main": "uasync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vol4ok/uasync.git"
+  },
+  "keywords": [
+    "micro",
+    "async",
+    "series",
+    "parallel",
+    "chain",
+    "lodash",
+    "underscore"
+  ],
+  "author": "Andrew Volkov <hello@vol4ok.net>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "lodash": "~1.2.1"
+  },
+  "devDependencies": {
+    "lodash": "~1.2.1",
+    "underscore": "~1.4.4"
+  }
+}
