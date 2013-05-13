@@ -1,0 +1,10 @@
+{
+  "name": "uasync",
+  "version": "0.1.0",
+  "main": "uasync.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
